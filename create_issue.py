@@ -11,8 +11,8 @@ data=f1.read()
 f1.close()
 
 data = data.split("\n")[1:]
-
-auth = HTTPBasicAuth("nihallimbani@gmail.com", "ATATT3xFfGF0ftqZEU1AVIi3voauaZpx_plob-fWDKt9tQUL4GfxpgnhEkYPyFW8P-O-tuYMYZRXLQLbe5VG3pT-0GzrdYNTvkHeU8yh-eDpTYVjbYSb_08qRSSYQ2Y5kY9Rg2SPazpAF2OE1wAWVs5LEszQWBqmp7Qn6ELkR74eQWl2XcGQPHs=88883CCD")
+print(data)
+auth = HTTPBasicAuth("nihallimbani@gmail.com", "ATATT3xFfGF0BxjGsln6-RH5rfypUsHetu_lShRPhlaVvuUERKFhM_tnBgngqwlM202ly1uT6QuCWZojpSQMJOZoHFTFUhkmT15WRYFZfbVRXhaVvoSIjs3Sj8MD9UaUgxEp_JRIyT-6Udk44RF9Tng3gyFp1xhv96MgyvIh_7uFs86bx0MUSLM=7D71D18C")
 
 headers = {
   "Accept": "application/json",
@@ -21,19 +21,34 @@ headers = {
 
 for rows in data:
    payload = json.dumps( 
-       {
-           "fields": {
-              "project":
-              {
-                 "key": rows.split(",")[0]
-              },
-              "summary": rows.split(",")[2],
-              "description": rows.split(",")[1],
-              "issuetype": {
-                 "name": rows.split(",")[3]
-              }
-           }
-       }
+   {
+      "fields": {
+        "assignee": {
+          "id": rows.split(",")[0]
+        },
+        "description": rows.split(",")[1],
+        "issuetype": {
+          "id": rows.split(",")[2]
+        },
+        "parent": {
+          "key": "DC-332"
+        },
+        "priority": {
+          "id": rows.split(",")[3]
+        },
+        "project": {
+          "id": "10001"
+        },
+        "reporter": {
+          "id": rows.split(",")[4]
+        },
+        "summary": rows.split(",")[5],
+        "timetracking": {
+          "originalEstimate": "10h",
+          "remainingEstimate": "8h"
+        }
+      }
+   }
    )
  
    response = requests.request(
@@ -43,5 +58,5 @@ for rows in data:
       headers=headers,
       auth=auth
    )
- 
+
    print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))

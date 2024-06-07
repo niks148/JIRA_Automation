@@ -1,70 +1,21 @@
-project_key,description,summary,issue_type
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and data cleaning not implemented,Bug
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and data cleaning not implemented,Bug
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and data cleaning not implemented,Bug
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and data cleaning not implemented,Bug
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and data cleaning not implemented,Bug
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and data cleaning not implemented,Bug
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and pipeline not working as expected,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and field mapping not done as per the expectation,Bug
-DC,creating issue using python and rest API,Data collection and data cleaning not implemented,Bug
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data collection and pipeline creation,Task
-DC,creating issue using python and rest API,Data Mapping and analysis,Task
+assignee_id,description,issue_id,priority_id,reporter_id,summary
+557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Integrating and research1,10006,1,712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Dashboard creation
+712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Integrating and research2,10006,1,557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard creation
+557058:02ad4102-e4ee-434f-9359-2f15e19e4dc7,Integrating and research3,10006,2,712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Dashboard creation
+712020:a881f903-3526-411a-a409-d09a2aa59185,Integrating and research4,10006,2,557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard creation
+5fcdf5b634847e0069cd1bb9,Integration with third party application,10006,3,557058:02ad4102-e4ee-434f-9359-2f15e19e4dc7,Dashboard creation
+5f2bf43270fb25002204f04a,Integration with third party application,10006,2,712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Dashboard creation
+557058:2df3ac89-389e-47b6-baaf-fe6208bc11b0,Data research,10006,1,712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Dashboard and visualization creation
+557058:02ad4102-e4ee-434f-9359-2f15e19e4dc7,Data research,10006,4,557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard and visualization creation
+712020:a881f903-3526-411a-a409-d09a2aa59185,Data research,10006,2,557058:02ad4102-e4ee-434f-9359-2f15e19e4dc7,Dashboard and visualization creation
+5fcdf5b634847e0069cd1bb9,Integration with third party application,10006,1,712020:a881f903-3526-411a-a409-d09a2aa59185,Dashboard and visualization creation
+5f2bf43270fb25002204f04a,Integration with third party application,10006,2,557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard and visualization creation
+557058:2df3ac89-389e-47b6-baaf-fe6208bc11b0,Data processing,10006,2,712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Dashboard and visualization creation
+557058:02ad4102-e4ee-434f-9359-2f15e19e4dc7,Data processing,10006,3,557058:02ad4102-e4ee-434f-9359-2f15e19e4dc7,Dashboard and visualization creation
+712020:a881f903-3526-411a-a409-d09a2aa59185,Data processing,10006,2,557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard and visualization creation
+5fcdf5b634847e0069cd1bb9,Dashboard creation,10006,1,5fcdf5b634847e0069cd1bb9,Dashboard and visualization creation
+5f2bf43270fb25002204f04a,Dashboard creation,10006,3,557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard and visualization creation
+557058:2df3ac89-389e-47b6-baaf-fe6208bc11b0,Dashboard creation,10006,1,5fcdf5b634847e0069cd1bb9,Dashboard and visualization creation
+557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard creation,10006,2,5f2bf43270fb25002204f04a,Dashboard and visualization creation
+712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Dashboard creation,10006,4,712020:215a62bc-07c2-4c76-a9bf-5b3822227321,Dashboard and visualization creation
+557058:02ad4102-e4ee-434f-9359-2f15e19e4dc7,Dashboard creation,10007,5,557058:1fdfbef8-136d-490d-98c2-52ea8f4df7fd,Dashboard and visualization creation
